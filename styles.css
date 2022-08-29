@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -7,14 +9,14 @@ html {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -moz-background-size: cover;
-  font-family: "Fredoka One", cursive;
+  font-family: 'Fredoka', cursive;
   color: white;
 }
 
 body {
   background-color: #5d3c18;
   color: blue;
-  font-family: "Fredoka One", cursive;
+  font-family: 'Carter One', cursive;
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -172,14 +174,14 @@ h3 {
 }
 
 .menu-item a:hover {
-  background-color: #766b65;
-  color: #5d3c18;
+  background-color: cornflowerblue;
+  color: whitesmoke;
 }
 
 .menu-item a {
   padding: 20px;
   text-decoration: none;
-  color: #5d3c18;
+  color: lightseagreen;
   font-size: 18px;
   letter-spacing: 2px;
   transition: all 1s;
@@ -220,6 +222,7 @@ h3 {
 .sala-title {
   color: aliceblue;
   background-color: #0d060f;
+  opacity: .8;
   -webkit-text-stroke: 0px;
 }
 
@@ -246,9 +249,11 @@ h3 {
   justify-content: center;
   align-items: center;
   float: left;
-  -webkit-text-stroke: 0px;
+  -webkit-text-stroke: 1px;
   color: grey;
   text-overflow: clip;
+  font-family: 'Comfortaa', cursive;
+  font-size: medium;
 }
 
 .sala-critics {
